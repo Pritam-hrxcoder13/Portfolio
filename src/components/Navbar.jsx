@@ -40,27 +40,33 @@ const Navbar = () => {
             </div>
             {/* mobile menue */}
             <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] text-gray-300"}>
-                <li className='py-6 text-4xl'><Link onClick={handleToggelNav} to="home" smooth={true} duration={500}>Home</Link></li>
-                <li className='py-6 text-4xl'>                    <Link onClick={handleToggelNav} to="about" smooth={true} duration={500}>About</Link>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleToggelNav} to="home" smooth={true} duration={500}>Home</Link>
                 </li>
-                <li className='py-6 text-4xl'>                    <Link onClick={handleToggelNav} to="skills" smooth={true} duration={500}>Skills</Link>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleToggelNav} to="about" smooth={true} duration={500}>About</Link>
                 </li>
-                <li className='py-6 text-4xl'>                    <Link onClick={handleToggelNav} to="work" smooth={true} duration={500}>Work</Link>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleToggelNav} to="skills" smooth={true} duration={500}>Skills</Link>
                 </li>
-                <li className='py-6 text-4xl'>                    <Link onClick={handleToggelNav} to="contact" smooth={true} duration={500}>Contact</Link>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleToggelNav} to="work" smooth={true} duration={500}>Work</Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleToggelNav} to="contact" smooth={true} duration={500}>Contact</Link>
                 </li>
             </ul>
             {/* social links */}
             <div className='hidden lg:flex  fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a href="/" className='flex justify-between items-center w-full text-gray-300'>Linkedin <FaLinkedin size={30} /> </a>
+                        <a href="https://www.linkedin.com/in/pritam-manna-24a460203/" target='blank' className='flex justify-between items-center w-full text-gray-300'>Linkedin <FaLinkedin size={30} /> </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a href="/" className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30} /> </a>
+                        <a href="https://github.com/Pritam-hrxcoder13" target='blank' className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30} /> </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                        <a href="/" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /> </a>
+                        <a href="mailto:pritammanna814@gmail.com" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /> </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a href="/" className='flex justify-between items-center w-full text-gray-300'>Resume <BsFillPersonLinesFill size={30} /> </a>
