@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.91b3ef9b.css",
-    "main.js": "/Portfolio/static/js/main.fc0b661b.js",
+    "main.js": "/Portfolio/static/js/main.895b6d08.js",
     "static/media/realestate.jpg": "/Portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/workImg.jpeg": "/Portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -16,10 +16,10 @@
     "static/media/logo.png": "/Portfolio/static/media/logo.ee5d83c4f37d67426122.png",
     "index.html": "/Portfolio/index.html",
     "main.91b3ef9b.css.map": "/Portfolio/static/css/main.91b3ef9b.css.map",
-    "main.fc0b661b.js.map": "/Portfolio/static/js/main.fc0b661b.js.map"
+    "main.895b6d08.js.map": "/Portfolio/static/js/main.895b6d08.js.map"
   },
   "entrypoints": [
     "static/css/main.91b3ef9b.css",
-    "static/js/main.fc0b661b.js"
+    "static/js/main.895b6d08.js"
   ]
 }
